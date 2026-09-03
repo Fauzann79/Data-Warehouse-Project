@@ -1,0 +1,34 @@
+## Bronze Layer
+
+The Bronze Layer stores raw data collected from CRM and ERP source systems.
+The data is loaded into this layer with minimal transformation to preserve the
+original source data.
+
+### CRM Tables
+
+#### crm_cust_info
+Stores customer information from the CRM system, including customer ID,
+customer key, name, marital status, gender, and creation date.
+
+#### crm_prd_info
+Stores product information from the CRM system, including product ID,
+product key, product name, cost, product line, and product validity dates.
+
+#### crm_sales_detail
+Stores sales transaction details from the CRM system, including order number,
+product key, customer ID, order date, shipping date, due date, sales amount,
+quantity, and price.
+
+### ERP Tables
+
+#### erp_cust_az12
+Stores customer-related information from the ERP system, including customer ID,
+birth date, and gender.
+
+#### erp_loc_a101
+Stores customer location information from the ERP system, including customer ID
+and country.
+
+#### erp_px_cat_g1v2
+Stores product category information from the ERP system, including product ID,
+category, subcategory, and maintenance information.
